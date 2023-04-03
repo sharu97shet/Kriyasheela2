@@ -1,0 +1,13 @@
+client_id,name,PAN,GST,tan,aadhar,address,person_incharge,person_to_be_contact
+1,A CHANDRAKALA,arun123,testgst4321,tan123,Individual,RESIDENT,sneha,sneha
+2,vinay,vinay1221,AANPR8123,vinaytan231,vinay765,jaynagr bnaglore,demo,demo
+3,test,test123,testgst123,testtan123,aadhar123,jaynagar bangalore,sneha,vidya
+5,amruta,amruta321,amrutagst321,amrutatan4321,amrdhar,jp nagar,amruta,sharath
+7,ranju,ranjusharu4321,gstrew321,tanranju,ranjadhr,kolar,sharu,appu
+8,ranju,SHARURANJU,gstrew321,tanranju,ranjadhr,bangalore,sharu,appu
+9,shary,abcd321,gstabcdsharu,tanabcd,tandhar54321,baglore,bharu,lohiyth
+,,,,,,,,
+,,,,,,,,
+,Date Mode:,ERP Transaction Date,,,,,,
+,Branch:,01-01-2010,,,,,,
+,Department:,All,,,,,,

@@ -1,0 +1,307 @@
+* {
+	box-sizing: border-box;
+}
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="select"],
+input[type="select"],
+input[type="password"],
+input[type="tel"],
+input[type="date"],
+textarea,
+select {
+	width: 45%;
+	padding: 12px;
+	border: 1px solid rgb(168, 166, 166);
+	border-radius: 4px;
+	resize: vertical;
+}
+.worksheet input[type="text"],
+.worksheet input[type="email"],
+.worksheet input[type="number"],
+.worksheet input[type="select"],
+.worksheet input[type="select"],
+.worksheet input[type="password"],
+.worksheet input[type="date"],
+.worksheet input[type="tel"],
+.worksheet textarea,
+.worksheet select {
+	width: 80%;
+	max-width: 100%;
+}
+.time input[type="date"],
+.time input[type="text"] {
+	width: 40%;
+	padding: 12px;
+	border: 1px solid rgb(168, 166, 166);
+	border-radius: 4px;
+	resize: vertical;
+}
+
+textarea {
+	background: white;
+}
+input[type="radio"],
+input[type="checkbox"] {
+	width: 1%;
+	padding-left: 0%;
+	border: 1px solid rgb(168, 166, 166);
+	border-radius: 4px;
+	resize: vertical;
+}
+/* h1{
+    font-family: Arial;
+    font-size: medium;
+    font-style: normal;
+    font-weight: bold;
+    color: brown;
+    text-align: center;
+    text-decoration: underline;
+} */
+
+/* h1 {
+	font-family: Arial;
+	font-size: medium;
+	font-style: normal;
+	font-weight: bold;
+	color: brown;
+	text-align: center;
+	text-decoration: underline;
+}
+*/
+label {
+	padding: 12px 12px 12px 0;
+	display: inline-block;
+}
+
+input[type="submit"],
+.call-to-action1 .button {
+	background-color: #4caf50;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	font-size: 1em;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	font-weight: 400;
+}
+input[type="submit"]:hover,
+.call-to-action1 .button:hover {
+	background: linear-gradient(45deg, #276097, #276097);
+	border: none;
+}
+.col-10 {
+	float: left;
+	text-align: left;
+	width: 20%;
+	margin-top: 6px;
+}
+.worksheet .col-10 {
+	width: 40%;
+	text-align: left;
+}
+.worksheet .col-90 {
+	width: 60%;
+	text-align: left;
+}
+.onlineform {
+	width: 25%;
+}
+/* Don't need now */
+/* .textcolor {
+	font-weight: 800;
+	font-family: Arial, Helvetica, sans-serif;
+	background: linear-gradient(to right, #f32170, #ff6b08, #cf23cf, #eedd44);
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+} */
+.col-90 {
+	float: left;
+	width: 80%;
+	margin-top: 6px;
+}
+.formtext {
+	width: 75%;
+}
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.Neumorphicform {
+	border-radius: 20px;
+	padding: 40px;
+	margin: auto 40px;
+	box-sizing: border-box;
+	background: rgb(82 19 19 / 10%);
+	box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px white;
+}
+.Neumorphicform1 {
+	border-radius: 20px;
+	padding: 40px;
+	margin: auto 200px;
+	box-sizing: border-box;
+	background: rgb(82 19 19 / 10%);
+	box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px white;
+}
+
+.save {
+	float: right;
+}
+
+/* table */
+table {
+	border: 1px solid #ccc;
+	border-collapse: collapse;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	table-layout: fixed;
+}
+
+table caption {
+	font-size: 1.5em;
+	margin: 0.5em 0 0.75em;
+}
+
+table tr {
+	background-color: #f8f8f8;
+	border: 1px solid #ddd;
+	padding: 0.35em;
+}
+
+table th,
+table td {
+	padding: 0.625em;
+	text-align: center;
+}
+
+table th {
+	font-size: 0.85em;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+}
+.loginsetup {
+	margin: 150px auto 50px;
+}
+/* contact box */
+.team-list1 li.team-member.grid-2 {
+	border: 1px solid black;
+	padding: 20px;
+}
+/* a.button:hover {
+	color: black;
+	font-weight: 800;
+	background: linear-gradient(to right, #f32170, #eedd44);
+} */
+/* custom file input */
+input[type="file"] {
+	width: 45%;
+}
+
+input::file-selector-button {
+	font-weight: bold;
+
+	padding: 1em;
+	border: thin solid grey;
+	border-radius: 3px;
+}
+/* .custom-file-input {
+	color: transparent;
+}
+.custom-file-input::-webkit-file-upload-button {
+}
+.custom-file-input::before {
+	content: "Choose file";
+	color: black;
+	display: inline-block;
+	background: -webkit-linear-gradient(top, #f9f9f9, #e3e3e3);
+	border: 1px solid #999;
+	border-radius: 3px;
+	padding: 12px;
+	width: 47%;
+	text-align: center;
+	outline: none;
+	white-space: nowrap;
+	cursor: pointer;
+	text-shadow: 1px 1px #fff;
+	font-weight: 700;
+	font-size: 10pt;
+}
+.custom-file-input:hover::before {
+	border-color: black;
+}
+.custom-file-input:active {
+	outline: 0;
+}
+.custom-file-input:active::before {
+	background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+} */
+
+@media screen and (max-width: 600px) {
+	.col-10,
+	.col-90,
+	input[type="submit"] {
+		width: 100%;
+		margin-top: 0;
+	}
+}
+@media screen and (max-width: 600px) {
+	table {
+		border: 0;
+	}
+
+	table caption {
+		font-size: 1.3em;
+	}
+
+	table thead {
+		border: none;
+		clip: rect(0 0 0 0);
+		height: 1px;
+		margin: -1px;
+		overflow: hidden;
+		padding: 0;
+		position: absolute;
+		width: 1px;
+	}
+
+	table tr {
+		border-bottom: 3px solid #ddd;
+		display: block;
+		margin-bottom: 0.625em;
+	}
+
+	table th {
+		border-bottom: 3px solid rgb(175, 34, 34);
+		display: block;
+		margin-bottom: 0.625em;
+		font-weight: 700;
+	}
+
+	table td {
+		border-bottom: 1px solid #ddd;
+		display: block;
+		font-size: 0.8em;
+		text-align: right;
+	}
+
+	table td::before {
+		/*
+	  * aria-label has no advantage, it won't be read inside a table
+	  content: attr(aria-label);
+	  */
+		content: attr(data-label);
+		float: left;
+		font-weight: bold;
+		text-transform: uppercase;
+	}
+
+	table td:last-child {
+		border-bottom: 0;
+	}
+}
